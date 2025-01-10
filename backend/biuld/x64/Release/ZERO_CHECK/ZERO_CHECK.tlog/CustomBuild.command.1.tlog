@@ -1,0 +1,10 @@
+^C:\USERS\ДАНИЛО\DESKTOP\КУРСОВА\HASAMI-SHOGI\BACKEND\BIULD\CMAKEFILES\EB97D5BA03B21CCE9820A4CDC2B50D0F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Данило/Desktop/курсова/hasami-shogi/backend -BC:/Users/Данило/Desktop/курсова/hasami-shogi/backend/biuld --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Данило/Desktop/курсова/hasami-shogi/backend/biuld/hasami_shogi.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

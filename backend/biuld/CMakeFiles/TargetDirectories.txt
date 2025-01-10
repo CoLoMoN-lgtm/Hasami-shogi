@@ -1,0 +1,3 @@
+C:/Users/Данило/Desktop/курсова/hasami-shogi/backend/biuld/CMakeFiles/hasami_shogi.dir
+C:/Users/Данило/Desktop/курсова/hasami-shogi/backend/biuld/CMakeFiles/ALL_BUILD.dir
+C:/Users/Данило/Desktop/курсова/hasami-shogi/backend/biuld/CMakeFiles/ZERO_CHECK.dir
